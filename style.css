@@ -1,0 +1,104 @@
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #e8f0fe;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+    
+.login-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    width: 350px;
+}
+
+form.ares-logo {
+    text-align: center;
+}
+
+.ares-logo {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+    
+.login-container h1 {
+    color: #343a40;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+label {
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    text-align: center;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.forgot-password {
+    color: #777;
+    margin-top: 10px;
+}
+
+.hidden {
+    display:none;
+}
+    
+.image-row {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+    max-width: 80%;
+}
+
+.image-div {
+    max-width: 15%;  
+    height: auto;    
+    margin: 10px;    
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.image-div button {
+    display: inline;
+    max-width: 35%;
+    margin: 10px 5px 10px 5px;
+}
+
+.image-div img {
+    max-width: 100%;
+}
