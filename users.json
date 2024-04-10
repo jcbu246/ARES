@@ -1,0 +1,20 @@
+[
+    {
+        "username": "alex",
+        "password": "1234",
+        "accessCode": "616e7c1b2e9346fc",
+        "secretCode": "ba7fcf7b1e2d85fa"
+    },
+    {
+        "username": "michael",
+        "password": "hentz",
+        "accessCode": "972668fec2f249b4",
+        "secretCode": "88c17497f042ed4f"
+    },
+    {
+        "username": "dummy",
+        "password": "1234",
+        "accessCode": "1",
+        "secretCode": "2"
+    }
+]
