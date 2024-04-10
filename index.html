@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>ARES</title>
+        <link rel="stylesheet" href="https://pyscript.net/releases/2024.2.1/core.css">
+        <script type="module" src="https://pyscript.net/releases/2024.2.1/core.js"></script>
+        
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <script type="py" src="./pyscripts/main.py" config="./pyscripts/main_config.json"></script>
+        <div id="step1" class="login-container">            
+            <img class="ares-logo" src="./images/ares_logo.png"/>
+            <h1>Login</h1>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <div class="button-container">
+                <button class="login-button" py-click="login">Login</button>
+                <p id="login-status"></p>
+            </div>
+        </div>
+        <div id="step2" class="hidden">
+            <div id="images" class="image-row">
+
+            </div>
+            <button>Next</button>
+        </div>
+
+    </body>
+</html>
